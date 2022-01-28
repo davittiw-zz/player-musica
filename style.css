@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
 
 body{
     margin: 0;
@@ -9,16 +9,18 @@ body{
     justify-content: center;
     height: 100vh;
     background-image: linear-gradient(45deg, #25003a, #300055, #580081,#5f00a8, #7d00dd, #b14dfd);
+    font-family: "lato", sans-serif;
 }
 
 section{
     background: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     color: #ddd;
+    border-radius: 20px;
 }
 
 img{
@@ -51,7 +53,7 @@ h2{
 
 progress{
     height: 6px;
-    width: 50%;
+    width: 0%;
     background-color: #680075;
 }
 
@@ -60,14 +62,14 @@ progress{
     height: 15px;
     background-color: #eee;
     border-radius: 50%;
-    margin-left: -2px;
+    margin-left: -5px;
 }
 
 .tempo{
     display: flex;
     width: 300px;
     justify-content: space-between;
-    margin-bottom: 0.5px;
+    margin-bottom: 0px;
 }
 
 .player{
@@ -78,14 +80,14 @@ progress{
     cursor: pointer;
 }
 
-.botao-play, .botao-pause{
+.botao-play, .botao-p {
     font-size: 30px;
+}
+
+.botao-p{
+    display: none;
 }
 
 .setas{
     font-size: 25px;
-}
-
-.botao-pause{
-    display: none;
 }
